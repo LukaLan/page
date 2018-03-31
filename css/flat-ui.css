@@ -374,21 +374,21 @@ body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.72222;
-  color: #34495e;
+  color: #000000;
   background-position: center;
   background-image: url("../img/BCG6.png");
   background-repeat: repeat;
   background-color: #ffffff;
 }
 a {
-  color: #16a085;
+  color: #9966ff;
   text-decoration: none;
   -webkit-transition: .25s;
           transition: .25s;
 }
 a:hover,
 a:focus {
-  color: #1abc9c;
+  color: #df316b;
   text-decoration: none;
 }
 a:focus {
@@ -796,7 +796,7 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #1abc9c;
+  background-color: #000000;
 }
 .btn-primary:hover,
 .btn-primary.hover,
@@ -4202,7 +4202,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 .navbar-toggle:hover:before,
 .navbar-toggle:focus:before {
-  color: #1abc9c;
+  color: #000000;
 }
 .navbar-toggle .icon-bar {
   display: none;
@@ -4451,7 +4451,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 .navbar-default {
-  background-color: #00FF00;
+  background-color: #4dbcdf;
 }
 .banner-image {
   background-size: contain;
@@ -4461,11 +4461,11 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   background-repeat: repeat-x;
 }
 .navbar-default .navbar-brand {
-  color: #34495e;
+  color: #000000;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #1abc9c;
+  color: #FFFFFF;
   background-color: transparent;
 }
 .navbar-default .navbar-toggle:before {
@@ -4477,7 +4477,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 }
 .navbar-default .navbar-toggle:hover:before,
 .navbar-default .navbar-toggle:focus:before {
-  color: #1abc9c;
+  color: #000000;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -4485,17 +4485,17 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   border-width: 2px;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #34495e;
+  color: #000000;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #1abc9c;
+  color: #ffffff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #1abc9c;
+  color: #df316b;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -4521,7 +4521,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #1abc9c;
+  color: #000000;
 }
 .navbar-default .navbar-nav > .open > a .caret,
 .navbar-default .navbar-nav > .open > a:hover .caret,
@@ -4531,17 +4531,17 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #34495e;
+    color: #000000;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #1abc9c;
+    color: #000000;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #1abc9c;
+    color: #FFFFFF;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4571,7 +4571,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 .navbar-default .navbar-form .form-control:focus,
 .navbar-default .navbar-form .select2-search input[type="text"]:focus {
   border-color: #1abc9c;
-  color: #1abc9c;
+  color: #000000;
 }
 .navbar-default .navbar-form .input-group-btn .btn {
   border-color: transparent;
@@ -5942,12 +5942,12 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 }
 footer {
   background-color: #4dbcdf;
-  color: #bac1c8;
+  color: #FFFFFF;
   font-size: 25px;
   padding: 0;
 }
 footer a {
-  color: #9aa4af;
+  color: #9966ff;
   font-weight: 700;
 }
 footer p {
