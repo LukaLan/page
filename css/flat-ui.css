@@ -886,7 +886,7 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #e74c3c;
+  background-color: #df316b;
 }
 .btn-danger:hover,
 .btn-danger.hover,
@@ -895,14 +895,15 @@ fieldset[disabled] .btn-info.active {
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
   color: #ffffff;
-  background-color: #ec7063;
-  border-color: #ec7063;
+  background-color: #9966ff;
+  border-color: #9966ff;
 }
 .btn-danger:active,
 .btn-danger.active,
 .open > .dropdown-toggle.btn-danger {
-  background: #c44133;
-  border-color: #c44133;
+  color: #000000;
+  background: #fffc00;
+  border-color: #fffc00;
 }
 .btn-danger.disabled,
 .btn-danger[disabled],
@@ -977,7 +978,7 @@ fieldset[disabled] .btn-success.active {
 .btn-warning {
   color: #000000;
   font-weight: 600;
-  background-color: #fcff00;
+  background-color: #fffc00;
 }
 .btn-warning:hover,
 .btn-warning.hover,
@@ -4047,7 +4048,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   filter: alpha(opacity=0);
 }
 .tile {
-  background-color: #eff0f2;
+  background-color: #eff8f8;
   border-radius: 6px;
   padding: 14px;
   margin-bottom: 20px;
@@ -4496,7 +4497,7 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #fcff00;
+  color: #fffc00;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a:hover {
