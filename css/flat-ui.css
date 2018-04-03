@@ -4047,8 +4047,18 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   opacity: 0;
   filter: alpha(opacity=0);
 }
+.ayyylmao {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  padding-top: 8px;
+  background-color: #fafafa;
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 5px;
+  border-style: solid;
+}
 .tile {
-  background-color: #eff8f8;
+  background-color: #fafafa;
   border-radius: 6px;
   padding: 14px;
   margin-bottom: 20px;
@@ -5959,6 +5969,7 @@ footer a {
 footer p {
   font-size: 15px;
   line-height: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .footer-title {
