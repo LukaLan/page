@@ -42,6 +42,9 @@
               border-color: transparent;
               box-shadow: none;
           }
+          .form-control {
+              margin-bottom: 16px;
+          }
       </style>
   </head>
   <body>
@@ -57,7 +60,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="gallery.html">Lens Gallery</a></li>
-            <li class="active"><a href="./">Request Custom Lens</a></li>
+            <li class="active"><a href="request.html">Request Custom Lens</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -69,15 +72,29 @@
     </div>
     <!-- /Image -->
     <!-- Container image height 275 -->
-    <div class="container">
-      <center><h4 aligh="center"><div class="h4-text">Request Custom Lens</div></h4></center>
-<form method="POST" action="https://formspree.io/info.lenskingdom@gmail.com">
-  <input name="email" placeholder="Your email" type="email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+       <div class="container">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+          
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ayyylmao" align="center">
+                              <center><h4 aligh="center"><div class="h4-text">Request Custom Lens</div></h4></center>
+                           <p><b>Snapchat Lens is the modern way of marketing!</b></p>
+                <p>We provide custom Snapchat Lenses in a way that suits your needs the most.</p><p><small><b>Tip:</b>For the best communication, first please tell us a bit about yourself.
+                Are you a business, musicial, do you need a custom Lens for personal use?<br />
+                </small></p>
+                <p><small>In the box below please carefully write your email address and write your message with your needs and possible ideas about the Lens.
+                </small></p>
+
+<form method="POST" action="https://formspree.io/info.lenskingdom@gmail.com" class="form-group">
+  <input name="email" placeholder="Your email" type="email" class="form-control" />
+  <textarea name="message" rows="5" placeholder="Your message" class="form-control"></textarea>
+  <button type="submit" class="btn btn-block btn-lg btn-info">Send</button>
 </form>
-    </div>
-    <!-- /Container -->
+                <small>
+                    We will get back at you as soon as we can.</small>
+            </div>
+          
+          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>
 
       <footer class="footer"> <!-- temp fooser. -->
       <div class="container">
