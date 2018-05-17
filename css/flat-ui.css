@@ -1316,7 +1316,7 @@ label {
 }
 .form-control,
 .select2-search input[type="text"] {
-    background-color: #fafafa;
+    background-color: #ffffff;
   border: 2px solid #000;
   color: #34495e;
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -4053,14 +4053,14 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin-top: 14px;
   margin-bottom: 24px;
   padding-top: 8px;
-  background-color: #fafafa;
+  background-color: #ffffff;
   border-width: 2px;
   border-color: #000000;
   border-radius: 5px;
   border-style: solid;
 }
 .tile {
-  background-color: #fafafa;
+  background-color: #ffffff;
   border-radius: 5px;
   padding: 8px;
   margin-bottom: 10px;
