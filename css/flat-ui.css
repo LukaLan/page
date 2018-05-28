@@ -4054,7 +4054,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin-bottom: 24px;
   padding-top: 8px;
   background-color: #ffffff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #000000;
   border-radius: 5px;
   border-style: solid;
