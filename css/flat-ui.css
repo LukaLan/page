@@ -5964,16 +5964,15 @@ footer {
   font-size: 25px;
   padding: 0;
 }
-footer a {
-  color: #9966ff;
-  font-weight: 700;
-}
 footer p {
   font-size: 15px;
   line-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+a.footer_social:link, a.footer_social:visited, a.footer_social:hover {color:#FFFFFF;}
+
 .footer-title {
   margin: 0 0 22px;
   padding-top: 21px;
